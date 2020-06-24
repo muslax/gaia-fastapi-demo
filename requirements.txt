@@ -1,0 +1,7 @@
+fastapi==0.58.0
+motor
+PyJWT
+passlib
+emails
+bcrypt
+sentry-sdk
