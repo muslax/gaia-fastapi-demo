@@ -6,7 +6,7 @@ API_V1_STR = "/api/v1"
 
 SECRET_KEY = "PATIKANJI"
 # ACCESS_TOKEN_EXPIRE_MINUTES = 60 * 24 * 1  # 60 minutes * 24 hours * 1 day = 1 day
-ACCESS_TOKEN_EXPIRE_MINUTES = 60 # 2 minutes
+ACCESS_TOKEN_EXPIRE_MINUTES = 24 * 60 # 24 x 60 minutes
 
 SERVER_NAME = os.getenv("SERVER_NAME")
 SERVER_HOST = os.getenv("SERVER_HOST")
