@@ -14,7 +14,7 @@ SERVER_HOST = os.getenv("SERVER_HOST")
 # SENTRY_DSN              = "https://7c0ba73507f748718b791fe973177be4@sentry.io/3481918"
 SENTRY_DSN = os.getenv("SENTRY_DSN")
 
-BACKEND_CORS_ORIGINS = "http://localhost, http://localhost:8000"
+BACKEND_CORS_ORIGINS = "http://localhost, http://localhost:8000, http://localhost:3000"
 
 MAX_CONNECTIONS_COUNT = int(os.getenv("MAX_CONNECTIONS_COUNT", 100))
 MIN_CONNECTIONS_COUNT = int(os.getenv("MIN_CONNECTIONS_COUNT", 10))
